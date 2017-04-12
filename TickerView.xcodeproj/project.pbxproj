@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC8CBC41E9ED58E00D0655E /* TickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC8CBC21E9ED58E00D0655E /* TickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDC8CBD21E9ED59C00D0655E /* SBDoubleSidedLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC8CBCA1E9ED59C00D0655E /* SBDoubleSidedLayer.h */; };
+		EDC8CBD31E9ED59C00D0655E /* SBDoubleSidedLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC8CBCB1E9ED59C00D0655E /* SBDoubleSidedLayer.m */; };
+		EDC8CBD41E9ED59C00D0655E /* SBGradientOverlayLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC8CBCC1E9ED59C00D0655E /* SBGradientOverlayLayer.h */; };
+		EDC8CBD51E9ED59C00D0655E /* SBGradientOverlayLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC8CBCD1E9ED59C00D0655E /* SBGradientOverlayLayer.m */; };
+		EDC8CBD61E9ED59C00D0655E /* SBTickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC8CBCE1E9ED59C00D0655E /* SBTickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDC8CBD71E9ED59C00D0655E /* SBTickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC8CBCF1E9ED59C00D0655E /* SBTickerView.m */; };
+		EDC8CBD81E9ED59C00D0655E /* UIView+SBExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC8CBD01E9ED59C00D0655E /* UIView+SBExtras.h */; };
+		EDC8CBD91E9ED59C00D0655E /* UIView+SBExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC8CBD11E9ED59C00D0655E /* UIView+SBExtras.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDC8CBBF1E9ED58E00D0655E /* TickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC8CBC21E9ED58E00D0655E /* TickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TickerView.h; sourceTree = "<group>"; };
+		EDC8CBC31E9ED58E00D0655E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC8CBCA1E9ED59C00D0655E /* SBDoubleSidedLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDoubleSidedLayer.h; sourceTree = "<group>"; };
+		EDC8CBCB1E9ED59C00D0655E /* SBDoubleSidedLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDoubleSidedLayer.m; sourceTree = "<group>"; };
+		EDC8CBCC1E9ED59C00D0655E /* SBGradientOverlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBGradientOverlayLayer.h; sourceTree = "<group>"; };
+		EDC8CBCD1E9ED59C00D0655E /* SBGradientOverlayLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBGradientOverlayLayer.m; sourceTree = "<group>"; };
+		EDC8CBCE1E9ED59C00D0655E /* SBTickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTickerView.h; sourceTree = "<group>"; };
+		EDC8CBCF1E9ED59C00D0655E /* SBTickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTickerView.m; sourceTree = "<group>"; };
+		EDC8CBD01E9ED59C00D0655E /* UIView+SBExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SBExtras.h"; sourceTree = "<group>"; };
+		EDC8CBD11E9ED59C00D0655E /* UIView+SBExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SBExtras.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC8CBBB1E9ED58E00D0655E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC8CBB51E9ED58D00D0655E = {
+			isa = PBXGroup;
+			children = (
+				EDC8CBC11E9ED58E00D0655E /* TickerView */,
+				EDC8CBC01E9ED58E00D0655E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC8CBC01E9ED58E00D0655E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC8CBBF1E9ED58E00D0655E /* TickerView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC8CBC11E9ED58E00D0655E /* TickerView */ = {
+			isa = PBXGroup;
+			children = (
+				EDC8CBCA1E9ED59C00D0655E /* SBDoubleSidedLayer.h */,
+				EDC8CBCB1E9ED59C00D0655E /* SBDoubleSidedLayer.m */,
+				EDC8CBCC1E9ED59C00D0655E /* SBGradientOverlayLayer.h */,
+				EDC8CBCD1E9ED59C00D0655E /* SBGradientOverlayLayer.m */,
+				EDC8CBCE1E9ED59C00D0655E /* SBTickerView.h */,
+				EDC8CBCF1E9ED59C00D0655E /* SBTickerView.m */,
+				EDC8CBD01E9ED59C00D0655E /* UIView+SBExtras.h */,
+				EDC8CBD11E9ED59C00D0655E /* UIView+SBExtras.m */,
+				EDC8CBC21E9ED58E00D0655E /* TickerView.h */,
+				EDC8CBC31E9ED58E00D0655E /* Info.plist */,
+			);
+			path = TickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EDC8CBBC1E9ED58E00D0655E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC8CBD41E9ED59C00D0655E /* SBGradientOverlayLayer.h in Headers */,
+				EDC8CBD61E9ED59C00D0655E /* SBTickerView.h in Headers */,
+				EDC8CBD21E9ED59C00D0655E /* SBDoubleSidedLayer.h in Headers */,
+				EDC8CBC41E9ED58E00D0655E /* TickerView.h in Headers */,
+				EDC8CBD81E9ED59C00D0655E /* UIView+SBExtras.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EDC8CBBE1E9ED58E00D0655E /* TickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC8CBC71E9ED58E00D0655E /* Build configuration list for PBXNativeTarget "TickerView" */;
+			buildPhases = (
+				EDC8CBBA1E9ED58E00D0655E /* Sources */,
+				EDC8CBBB1E9ED58E00D0655E /* Frameworks */,
+				EDC8CBBC1E9ED58E00D0655E /* Headers */,
+				EDC8CBBD1E9ED58E00D0655E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickerView;
+			productName = TickerView;
+			productReference = EDC8CBBF1E9ED58E00D0655E /* TickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC8CBB61E9ED58D00D0655E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Phong Le";
+				TargetAttributes = {
+					EDC8CBBE1E9ED58E00D0655E = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDC8CBB91E9ED58D00D0655E /* Build configuration list for PBXProject "TickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDC8CBB51E9ED58D00D0655E;
+			productRefGroup = EDC8CBC01E9ED58E00D0655E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC8CBBE1E9ED58E00D0655E /* TickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC8CBBD1E9ED58E00D0655E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC8CBBA1E9ED58E00D0655E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC8CBD91E9ED59C00D0655E /* UIView+SBExtras.m in Sources */,
+				EDC8CBD31E9ED59C00D0655E /* SBDoubleSidedLayer.m in Sources */,
+				EDC8CBD51E9ED59C00D0655E /* SBGradientOverlayLayer.m in Sources */,
+				EDC8CBD71E9ED59C00D0655E /* SBTickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EDC8CBC51E9ED58E00D0655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDC8CBC61E9ED58E00D0655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDC8CBC81E9ED58E00D0655E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TickerView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phongleq.TickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EDC8CBC91E9ED58E00D0655E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TickerView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phongleq.TickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC8CBB91E9ED58D00D0655E /* Build configuration list for PBXProject "TickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC8CBC51E9ED58E00D0655E /* Debug */,
+				EDC8CBC61E9ED58E00D0655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC8CBC71E9ED58E00D0655E /* Build configuration list for PBXNativeTarget "TickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC8CBC81E9ED58E00D0655E /* Debug */,
+				EDC8CBC91E9ED58E00D0655E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC8CBB61E9ED58D00D0655E /* Project object */;
+}
